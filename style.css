@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #e680d3, #52d3ad);
+    
+}
+.container{
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btn-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 2rem 4rem;
+ gap: 2rem;
+}
+.btn-div button{
+    font-size: 17px;
+    padding: .8rem 1.7rem ;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#btn1{
+    background-color: #001F3F;
+    color: white;
+    width: 70%;
+}
+#btn2{
+    background-color: #228B22;
+    color: white;
+    width: 70%;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.color-code{
+    color: white;
+    width: 90%;
+    background-color: transparent;
+    padding: .5rem .8rem;
+    border-left: 4px solid white;
+    margin:2rem .5rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
